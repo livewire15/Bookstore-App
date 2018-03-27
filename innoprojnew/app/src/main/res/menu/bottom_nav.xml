@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Dashboard"
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="Library books"
+        android:id="@+id/library_books"
+        android:icon="@drawable/ic_local_library_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="Borrow zone"
+        android:id="@+id/borrow_zone"
+        android:icon="@drawable/ic_import_contacts_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="My books"
+        android:id="@+id/my_books"
+        android:icon="@drawable/ic_arrow_downward_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+</menu>

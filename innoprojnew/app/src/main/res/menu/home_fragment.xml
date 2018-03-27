@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        android:title="Notifications"
+        android:id="@+id/notifications"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Logout"
+        android:id="@+id/logout"
+        app:showAsAction="ifRoom"
+        />
+</menu>
